@@ -1,0 +1,17 @@
+[project]
+name = "prague-airport-mcp"
+version = "0.1.0"
+description = "MCP server for retrieving data from Prague Airport API (stub)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.6.0",]
+[[project.authors]]
+name = "jatuma"
+email = "102375562+jatuma@users.noreply.github.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+prague-airport-mcp = "prague_airport_mcp:main"

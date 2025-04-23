@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "prague-airport-mcp": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "/workspaces/Prague-Airport-MCP/test", "run", "prague-airport-mcp"]
+    }
+  }
+}
